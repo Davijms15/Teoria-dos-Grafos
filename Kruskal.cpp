@@ -38,7 +38,7 @@ void Kruskal() {
             cost += get<0>(i);
         }
     }
-    cout << cost << endl;
+    cout << "MST Cost = " << cost << endl;
 }
 
 int main () {

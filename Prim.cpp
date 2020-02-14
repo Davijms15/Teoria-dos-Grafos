@@ -28,7 +28,7 @@ void Prim(lli start) {
             }
         }
     }
-    cout << cost << endl;
+    cout << "MST Cost = " << cost << endl;
 }
 
 int main() {

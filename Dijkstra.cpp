@@ -37,6 +37,8 @@ int main() {
         graph[v].push_back(make_pair(u, c));
     }
     Dijkstra(1);
-    cout << distances[vertex] << endl;
+    for(lli i = 2; i <= vertex; ++i) {
+        cout << "Distance from 1 to " << i << " = " << distances[i] << endl;
+    }
     return 0;
 }
